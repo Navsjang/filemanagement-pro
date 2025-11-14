@@ -1,0 +1,28 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial;background:#071021;color:#e6eef3}
+.site-header{display:flex;align-items:center;justify-content:center;padding:14px;position:relative;border-bottom:1px solid rgba(255,255,255,0.03)}
+.logo-center{display:flex;justify-content:center;align-items:center}
+.logo-svg{width:320px;max-width:60vw}
+.hamburger{position:absolute;right:18px;top:12px;background:transparent;border:none;padding:6px;cursor:pointer}
+.side-menu{position:fixed;right:0;top:0;width:260px;height:100vh;background:#0f1720;padding:18px;box-shadow:-10px 0 30px rgba(0,0,0,0.6);z-index:60}
+.side-menu ul{list-style:none;padding:0;margin:0}
+.side-menu a{display:block;color:#cfeff8;padding:10px 6px;text-decoration:none;border-radius:6px}
+.side-menu a:hover{background:#092a34}
+.hidden{display:none}
+.page{padding:24px;max-width:1100px;margin:20px auto}
+.hero-center{display:flex;justify-content:center;align-items:center;height:60vh}
+.hero-logo{width:360px;max-width:70vw}
+.topics-list{display:flex;flex-direction:column;gap:10px;max-width:820px}
+.topic-btn{background:#0b2130;border:1px solid #0b6f99;color:#bfeff7;padding:12px;border-radius:10px;text-align:left;cursor:pointer}
+.topic-btn:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(0,0,0,0.6)}
+.topic-content{margin-top:18px;background:#07111a;padding:16px;border-radius:10px}
+.tools-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.replica-img{width:100%;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
+.sim-results{background:#061018;padding:10px;border-radius:8px;min-height:50px;margin-top:8px}
+.organizer{display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.folder{background:#081d24;padding:10px;border-radius:8px;min-width:120px;text-align:center;border:2px dashed #0fb7ff}
+.files{display:flex;gap:8px;flex-wrap:wrap;margin-left:8px}
+.file{background:#0b2b34;padding:8px 10px;border-radius:6px;cursor:grab}
+.muted{color:#819aa4}
+.quiz-result{margin-top:12px;padding:10px;background:#061018;border-radius:8px}
+.site-footer{padding:12px;text-align:center;color:#6f8b97;background:linear-gradient(180deg,transparent,#051018)}
+@media(max-width:800px){.tools-layout{grid-template-columns:1fr} .hero-logo{width:280px}}
